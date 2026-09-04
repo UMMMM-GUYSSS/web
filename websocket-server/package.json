@@ -1,0 +1,14 @@
+{
+  "name": "machine-party-relay",
+  "version": "3.0.0",
+  "description": "WebRTC signaling server for Machine Party web multiplayer. Requires a persistent Node.js host (Render, Fly.io, Railway); not compatible with serverless functions.",
+  "main": "relay_server.js",
+  "scripts": {
+    "start": "node relay_server.js",
+    "test": "node test_signaling.js && node test_relay.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
