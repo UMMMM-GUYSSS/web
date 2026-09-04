@@ -1,0 +1,43 @@
+{
+  "pack": "Machine Party.pck",
+  "partSize": 99000000,
+  "totalSize": 606081096,
+  "sha256": "d8a753f13a73624f87562935641bc0f6b5a50aa29a19ad3fe7db88d04e0ea23f",
+  "parts": [
+    {
+      "file": "Machine Party.pck.part00",
+      "size": 99000000,
+      "sha256": "990a53477d103477e297a7fd1e7ed28d9033a51b8505af20c9e22d7b6c6c4144"
+    },
+    {
+      "file": "Machine Party.pck.part01",
+      "size": 99000000,
+      "sha256": "700886e9bf60d684346ddcda4ff4fec996e86df9215689e16b2c475fedc55b20"
+    },
+    {
+      "file": "Machine Party.pck.part02",
+      "size": 99000000,
+      "sha256": "01f89447d4a3aa39030255aab2991fd73c69a4f3cad79a8a694151d4b5ef03a9"
+    },
+    {
+      "file": "Machine Party.pck.part03",
+      "size": 99000000,
+      "sha256": "affb9ecac519af58dc5653f790c15e086d72a20e725386a04b860e438a53dbb6"
+    },
+    {
+      "file": "Machine Party.pck.part04",
+      "size": 99000000,
+      "sha256": "be1cab96c76406536f88daa247782a4b66a0fd7a18704d45c98b5f9fb4a6b4d7"
+    },
+    {
+      "file": "Machine Party.pck.part05",
+      "size": 99000000,
+      "sha256": "ac0218285f7c0e762bab0e611d9720b8276c0fe9fb83d3a129930cc11fcaa122"
+    },
+    {
+      "file": "Machine Party.pck.part06",
+      "size": 12081096,
+      "sha256": "d13d44ca75838d8b6e52fdee58015cabb7c113edf47c5ed83b1e06f22f265310"
+    }
+  ]
+}
