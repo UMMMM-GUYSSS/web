@@ -1,43 +1,43 @@
 {
   "pack": "Machine Party.pck",
-  "partSize": 99000000,
-  "totalSize": 606081096,
-  "sha256": "d8a753f13a73624f87562935641bc0f6b5a50aa29a19ad3fe7db88d04e0ea23f",
+  "partSize": 86588517,
+  "totalSize": 606119616,
+  "sha256": "e53637098f4b43370367a79ed532e7eb36e3e4db8f4d3606a299f552f9730960",
   "parts": [
     {
       "file": "Machine Party.pck.part00",
-      "size": 99000000,
-      "sha256": "990a53477d103477e297a7fd1e7ed28d9033a51b8505af20c9e22d7b6c6c4144"
+      "size": 86588517,
+      "sha256": "749b6d6aea0c362ac3b45f078713fc38c1f82634d696680180ff9eb12591100e"
     },
     {
       "file": "Machine Party.pck.part01",
-      "size": 99000000,
-      "sha256": "700886e9bf60d684346ddcda4ff4fec996e86df9215689e16b2c475fedc55b20"
+      "size": 86588517,
+      "sha256": "9c46f717409fe81fab5bb409c041c20902b10581b655c26d0ef72bd01e29aafd"
     },
     {
       "file": "Machine Party.pck.part02",
-      "size": 99000000,
-      "sha256": "01f89447d4a3aa39030255aab2991fd73c69a4f3cad79a8a694151d4b5ef03a9"
+      "size": 86588517,
+      "sha256": "b495b222ec40ce3e08f45371a7f4fb2ac1888cbecffa1b9b3c55b754185b5331"
     },
     {
       "file": "Machine Party.pck.part03",
-      "size": 99000000,
-      "sha256": "affb9ecac519af58dc5653f790c15e086d72a20e725386a04b860e438a53dbb6"
+      "size": 86588517,
+      "sha256": "2fc1cbe1c0b687ec17c1cfc9603fbb8d8ab0903190a9203de78237cb5b3211d1"
     },
     {
       "file": "Machine Party.pck.part04",
-      "size": 99000000,
-      "sha256": "be1cab96c76406536f88daa247782a4b66a0fd7a18704d45c98b5f9fb4a6b4d7"
+      "size": 86588517,
+      "sha256": "864e5d377a1b22e7cb627cb530d3b6d6605412f0961f9213faa27e167e5585cc"
     },
     {
       "file": "Machine Party.pck.part05",
-      "size": 99000000,
-      "sha256": "ac0218285f7c0e762bab0e611d9720b8276c0fe9fb83d3a129930cc11fcaa122"
+      "size": 86588517,
+      "sha256": "3912ae62760940ce1239244bc99c1ed0666f8afe4376f006da35b7b0fbccbbb3"
     },
     {
       "file": "Machine Party.pck.part06",
-      "size": 12081096,
-      "sha256": "d13d44ca75838d8b6e52fdee58015cabb7c113edf47c5ed83b1e06f22f265310"
+      "size": 86588514,
+      "sha256": "f2a630bff7643d41a9e6ac8886a047970d45dbb0e5a688ebbb99f3a6458edacd"
     }
   ]
 }
