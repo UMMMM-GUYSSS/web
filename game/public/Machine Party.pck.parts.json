@@ -1,0 +1,68 @@
+{
+  "pack": "Machine Party.pck",
+  "partSize": 50509968,
+  "totalSize": 606119616,
+  "sha256": "2071f3466c1de8774bb2a02eef5e967d88c92edcdfb25797e6166581bc18b940",
+  "parts": [
+    {
+      "file": "Machine Party.pck.part00",
+      "size": 50509968,
+      "sha256": "3de464cf96f853d0eac0b038441eab002919a4e2c7d98df6e18336e22cefcc9a"
+    },
+    {
+      "file": "Machine Party.pck.part01",
+      "size": 50509968,
+      "sha256": "362ba8360e040d2658b887c7f7871bcf6e47e83c7e3a1d0b4e07966557a48ca5"
+    },
+    {
+      "file": "Machine Party.pck.part02",
+      "size": 50509968,
+      "sha256": "bd929ddd48b5965695c3b59b9681078b8e70c119a4134a3702812dc62d9ad929"
+    },
+    {
+      "file": "Machine Party.pck.part03",
+      "size": 50509968,
+      "sha256": "973a92b8f3df18e3da3971ed2f93ed1ac1633b80c7d6792bd326a54259b27405"
+    },
+    {
+      "file": "Machine Party.pck.part04",
+      "size": 50509968,
+      "sha256": "a1d94329aa27d02023370cfae7a7172e407bc2237b768e40bcd09560e7c5f95a"
+    },
+    {
+      "file": "Machine Party.pck.part05",
+      "size": 50509968,
+      "sha256": "23d2f6fd344e02ea143310139226e64427b7fbee80a196c063ce73a6d61ee18d"
+    },
+    {
+      "file": "Machine Party.pck.part06",
+      "size": 50509968,
+      "sha256": "8515a62499c2c02d8da08ff6f45f0ef8a8f5c409a2c5679c7396cdb3110d2a53"
+    },
+    {
+      "file": "Machine Party.pck.part07",
+      "size": 50509968,
+      "sha256": "5cecc1b2ac83ad2ed6cd8282c0131bb259bab42216714c91a86323898b31109a"
+    },
+    {
+      "file": "Machine Party.pck.part08",
+      "size": 50509968,
+      "sha256": "f813be258aff3afe93ffcd83c403f2184241d6d8a101cad4839d9e862d65bd80"
+    },
+    {
+      "file": "Machine Party.pck.part09",
+      "size": 50509968,
+      "sha256": "a355c76869ab05bcecabacb48fb9dc5e5ebbcc9656d53a299d4d8c5bad0bdbbc"
+    },
+    {
+      "file": "Machine Party.pck.part10",
+      "size": 50509968,
+      "sha256": "d372fc3ca675e859412492ad994f424ebf9c985cff5e87423e6b3cb07bc12e14"
+    },
+    {
+      "file": "Machine Party.pck.part11",
+      "size": 50509968,
+      "sha256": "824d4b58f93afed327f60c20bbf85738c796233506bcf26c0f3702dae495441e"
+    }
+  ]
+}
