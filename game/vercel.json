@@ -1,7 +1,12 @@
 {
   "version": 2,
-  "buildCommand": "echo 'Static build'",
-  "outputDirectory": "public",
+  "public": true,
+  "functions": {
+    "api/index.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  },
   "rewrites": [
     {
       "source": "/(.*)",
@@ -23,6 +28,10 @@
         {
           "key": "Access-Control-Allow-Origin",
           "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
         }
       ]
     }

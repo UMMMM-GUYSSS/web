@@ -2,7 +2,7 @@
   "name": "godot-game-portal",
   "version": "1.0.0",
   "description": "Vercel-hosted Godot web game server",
-  "main": "api/index.js",
+
   "scripts": {
     "dev": "node server.js",
     "build": "echo 'Static build complete'",

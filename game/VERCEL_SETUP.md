@@ -56,12 +56,52 @@ Test Vercel build locally:
 vercel dev
 ```
 
-## File Size Considerations
+## File Size Considerations ⚠️
 
-If your `.pck` files exceed Vercel's function size limit (50MB uncompressed):
-- Split large `.pck` into smaller `.part00`, `.part01`, etc.
-- Already supported by your code (uses `Machine Party.parts.json`)
-- Vercel will handle multi-part assembly fine
+Your `.pck` files are **98MB each** — exceeds Vercel's 50MB limit.
+
+### Solution: Store on CDN, Proxy via Vercel
+
+1. **Upload `.pck.partXX` and `.wasm` files to CDN** (not Vercel):
+   - Bunny CDN, Cloudflare R2, AWS S3, or similar
+   - Set CDN URL in Vercel environment variable
+
+2. **Set CDN_URL env variable in Vercel**:
+   ```bash
+   vercel env add CDN_URL https://your-cdn.com/games/machine-party/
+   ```
+   
+   Example with Bunny CDN:
+   ```
+   CDN_URL=https://yourbundle.b-cdn.net/machine-party/
+   ```
+
+3. **How it works**:
+   - Client requests `https://your-vercel-app.vercel.app/Machine Party.pck.part00`
+   - Vercel API proxies request to CDN
+   - CDN streams the 98MB file to client
+   - Vercel function stays under 50MB (no binary stored)
+
+### Storage on CDN
+
+Upload these to your CDN:
+- `Machine Party.wasm`
+- `Machine Party.side.wasm`
+- `Machine Party.pck.part00` through `Machine Party.pck.part06`
+
+Keep in `/public` on Vercel:
+- `index.html`
+- `Machine Party.js`
+- `Machine Party.audio.worklet.js`
+- `Machine Party.audio.position.worklet.js`
+- `Machine Party.parts.json`
+- Images (`.png`, `.jpg`, `.ico`, `.svg`)
+
+### Free CDN Options
+
+- **jsDelivr** (free, fast) — use GitHub repo as source
+- **Bunny CDN** (~$0.01/GB) — cheapest paid option
+- **Cloudflare R2** ($0.015/GB) — free tier limited
 
 ## CORS & SharedArrayBuffer
 
